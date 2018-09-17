@@ -1,0 +1,48 @@
+page-dashboard {
+    ion-col div {
+        border-radius: 2px;
+        padding: 5px;
+        text-align: center;
+        height:100%;
+        width:100%;
+      }
+      ion-slides {
+        width: 100% !important;
+        // margin-left: 10% !important;
+        // width: 280% !important;
+        height:70%!important;
+        margin: 0 auto !important;
+      }
+      ion-slide{
+        border-radius: 10px;
+        width:77% !important;
+      }
+      
+    .textStyle{
+        font-size:2.5em;
+        color:white;
+    }
+    .textStyle2{
+        font-size:1.0em;
+        color:white;
+    }
+    .subTextStyle1{
+        font-size:0.7em;
+        color:white;
+    }
+    .subTextStyle2{
+        font-size:0.7em;
+        color:white;
+    }
+
+    .subNumStyle1{
+        color:white;
+        margin-top:-0.9em;
+    }
+
+    .subNumStyle2{
+        color:white;
+        margin-top:-0.9em;
+    }
+
+}

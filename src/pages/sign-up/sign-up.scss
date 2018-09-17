@@ -1,0 +1,24 @@
+page-sign-up {
+    .bStyle{
+        display: inline-block;
+        background-color: #FF447C;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1em;
+        padding: 6px;
+        height:10%;
+        padding-top:1em;
+        padding-bottom:1em;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 5em;
+        width:80%;
+        border-radius:10px;
+    }
+    ion-title{
+        background-color:#76E6ED;
+        color:white;
+    
+    }
+}

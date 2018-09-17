@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-title>Sign in</ion-title>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
+  <button (click)='navigate()'>CLIKC ME!</button>
+  <div *ngIf='this.admin.isLoggedIn'><h1>HI!</h1></div>
+</ion-content>

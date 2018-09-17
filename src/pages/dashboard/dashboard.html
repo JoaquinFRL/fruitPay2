@@ -1,0 +1,95 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button [menuToggle]="activeMenu">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style='text-align:center'>
+      Dashboard
+    </ion-title>
+    <ion-buttons end>
+      <button icon-only style='background-color:rgba(245, 53, 53, 0)'>
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding >
+  <!-- <div style='height:10%'></div> -->
+  <!-- <ion-slides pager  spaceBetween=9 loop=true slidesPerView="3" style='height:60%'>
+
+    <ion-slide style="background-image: linear-gradient(200deg,#70FFA1, #25DEEA)" >
+      <ion-grid>
+        <ion-row justify-content-center>Current Balance</ion-row>
+        <ion-row justify-content-center><h2 class='textStyle'>P 173.63</h2></ion-row>
+        
+      </ion-grid>
+    </ion-slide>
+  
+    <ion-slide style="background-color: blue">
+      <h2>Slide 2</h2>
+    </ion-slide>
+  
+    <ion-slide style="background-color: red">
+      <h2>Slide 3</h2>
+    </ion-slide>
+  
+  </ion-slides>
+  <ion-grid style='height:30%'>
+   <ion-row>
+    <ion-col col-6><div>6 cols</div></ion-col>
+    <ion-col col-6><div>6 cols</div></ion-col>
+   </ion-row>
+  </ion-grid> -->
+  
+    <ion-grid style='height:100%'>
+     <ion-row style='height:40%'>
+        <ion-slides pager  initialSlide=1 spaceBetween=10 loop=true centeredSlides=true slidesPerView="3" >
+
+            <ion-slide style="background-image: linear-gradient(200deg,#70FFA1, #25DEEA)" >
+              <ion-grid>
+                <ion-row justify-content-center class='textStyle2'>Current Balance</ion-row>
+                <ion-row justify-content-center><h2 class='textStyle'>P 173.63</h2></ion-row>
+                <ion-row>
+                  <ion-col col-6>
+                    <div class='subTextStyle1'>Available</div>
+                  </ion-col>
+                  <ion-col col-6>
+                    <div class='subTextStyle2'>Last Transaction</div>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col col-6>
+                    <div class='subNumStyle1'>P 166.00</div>
+                  </ion-col>
+                  <ion-col col-6>
+                    <div class='subNumStyle2'>P 154.00</div>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-slide>
+          
+            <ion-slide style="background-image: linear-gradient(90deg,#FF7A68, #F2FFA1)">
+              <h2>Slide 2</h2>
+            </ion-slide>
+          
+            <ion-slide style="background-image: linear-gradient(180deg,#A8FFBB, #FFFFFF)">
+              <h2>Slide 3</h2>
+            </ion-slide>
+          
+          </ion-slides>
+     </ion-row>
+     <ion-row style='height:20%'>
+      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#FFE899, #FFC369)">6 cols</div></ion-col>
+      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#E1FB7D, #53EF2C)">6 cols</div></ion-col>
+     </ion-row>
+     <ion-row style='height:20%'>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#64FFEC, #75D6FF)">6 cols</div></ion-col>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F8AF5A, #FF237F)">6 cols</div></ion-col>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F77EC0, #C01285)">6 cols</div></ion-col>
+     </ion-row>
+    </ion-grid> 
+</ion-content>
