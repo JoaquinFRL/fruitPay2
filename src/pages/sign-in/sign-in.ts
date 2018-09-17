@@ -23,7 +23,7 @@ export class SignInPage {
   }
   
   toDashboard(){
-    this.navCtrl.push(DashboardPage);
+    this.navCtrl.setRoot(DashboardPage);
   }
 
 }

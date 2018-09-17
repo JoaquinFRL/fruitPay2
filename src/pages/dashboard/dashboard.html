@@ -46,12 +46,11 @@
   </ion-grid> -->
   
     <ion-grid style='height:100%'>
-     <ion-row style='height:40%'>
-        <ion-slides pager  initialSlide=1 spaceBetween=10 loop=true centeredSlides=true slidesPerView="3" >
-
-            <ion-slide style="background-image: linear-gradient(200deg,#70FFA1, #25DEEA)" >
-              <ion-grid>
-                <ion-row justify-content-center class='textStyle2'>Current Balance</ion-row>
+     <ion-row style='height:50%'>
+        <ion-slides pager   initialSlide=1 spaceBetween=10 loop=true centeredSlides=true slidesPerView="3" >
+            <ion-slide  style="background-image: linear-gradient(200deg,#70FFA1, #25DEEA)" >
+              <ion-grid >
+                <ion-row justify-content-center ><ion-col class='textStyle2'>Current Balance</ion-col></ion-row>
                 <ion-row justify-content-center><h2 class='textStyle'>P 173.63</h2></ion-row>
                 <ion-row>
                   <ion-col col-6>
@@ -73,23 +72,63 @@
             </ion-slide>
           
             <ion-slide style="background-image: linear-gradient(90deg,#FF7A68, #F2FFA1)">
-              <h2>Slide 2</h2>
+              <ion-grid>
+                <ion-row> 
+                  <ion-col ><div class='titleStyle'>FRUIT PAY</div></ion-col>
+                </ion-row>
+                
+                <ion-row>
+                  <ion-col ><div class='titleStyle'>Virtual Card Number</div></ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col ><div class='titleStyle'>*** *** ***</div></ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col><div class='titleStyle'>Jericho Andre Mesina</div></ion-col>
+                </ion-row>
+              </ion-grid>
             </ion-slide>
           
             <ion-slide style="background-image: linear-gradient(180deg,#A8FFBB, #FFFFFF)">
-              <h2>Slide 3</h2>
+              <ion-grid>
+                <ion-row>
+                  <ion-col>
+                    <h1>STARBUCKS</h1>
+                  </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                      <h1>P 100.00</h1>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-6>
+                      <div class='subTextStyle3'>Time of Purchase</div>
+                    </ion-col>
+                    <ion-col col-6>
+                      <div class='subTextStyle4'>Date of Purchase</div>
+                    </ion-col>
+                </ion-row>
+                <ion-row>
+                    <ion-col col-6>
+                      <div class='subNumStyle3'>8:30 AM</div>
+                    </ion-col>
+                    <ion-col col-6>
+                      <div class='subNumStyle4'>8/20/2018</div>
+                    </ion-col>
+                </ion-row>
+              </ion-grid>
             </ion-slide>
-          
-          </ion-slides>
+        </ion-slides>
      </ion-row>
      <ion-row style='height:20%'>
-      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#FFE899, #FFC369)">6 cols</div></ion-col>
-      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#E1FB7D, #53EF2C)">6 cols</div></ion-col>
+      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#FFE899, #FFC369)"><p class='subTextStyle5'>CREATE QR TO PAY</p></div></ion-col>
+      <ion-col col-6 ><div style="background-image: linear-gradient(200deg,#E1FB7D, #53EF2C)"><p class='subTextStyle5'>SCAN TO PAY</p></div></ion-col>
      </ion-row>
      <ion-row style='height:20%'>
-        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#64FFEC, #75D6FF)">6 cols</div></ion-col>
-        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F8AF5A, #FF237F)">6 cols</div></ion-col>
-        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F77EC0, #C01285)">6 cols</div></ion-col>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#64FFEC, #75D6FF)"><p class='subTextStyle5'>LOAD UP</p></div></ion-col>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F8AF5A, #FF237F)"><p class='subTextStyle5'>SEND MONEY</p></div></ion-col>
+        <ion-col col-4 ><div style="background-image: linear-gradient(200deg,#F77EC0, #C01285)"><p class='subTextStyle5'>PAY BILLS</p></div></ion-col>
      </ion-row>
     </ion-grid> 
 </ion-content>

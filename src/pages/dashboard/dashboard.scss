@@ -1,21 +1,25 @@
 page-dashboard {
     ion-col div {
         border-radius: 2px;
-        padding: 5px;
+        padding: 0.1em;
         text-align: center;
         height:100%;
         width:100%;
       }
+    
       ion-slides {
         width: 100% !important;
         // margin-left: 10% !important;
         // width: 280% !important;
-        height:70%!important;
+        height:65%!important;
         margin: 0 auto !important;
+
+        
       }
+
       ion-slide{
         border-radius: 10px;
-        width:77% !important;
+        width:90% !important;
       }
       
     .textStyle{
@@ -34,6 +38,19 @@ page-dashboard {
         font-size:0.7em;
         color:white;
     }
+    .subTextStyle3{
+        font-size:0.7em;
+        color:black;
+    }
+    .subTextStyle4{
+        font-size:0.7em;
+        color:black;
+    }
+
+    .subTextStyle5{
+        color:white;
+        font-weight:bold;    
+    }
 
     .subNumStyle1{
         color:white;
@@ -44,5 +61,23 @@ page-dashboard {
         color:white;
         margin-top:-0.9em;
     }
+    .subNumStyle3{
+        color:black;
+        margin-top:-0.9em;
+    }
+    .subNumStyle4{
+        color:black;
+        margin-top:-0.9em;
+    }
+
+    .titleStyle{
+        color:white;
+        font-weight: bold;
+        font-size:1.0em;
+        text-align: left;
+        width:100%;
+    }
+
+    
 
 }
