@@ -11,6 +11,7 @@ import { SignInPage } from '../pages/sign-in/sign-in';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { LandingPage } from '../pages/landing/landing';
 import {SignUpPage} from '../pages/sign-up/sign-up';
+import {LoadUpOptionsPage} from '../pages/load-up-options/load-up-options';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {SignUpPage} from '../pages/sign-up/sign-up';
     SignInPage,
     DashboardPage,
     LandingPage,
-    SignUpPage
+    SignUpPage,
+    LoadUpOptionsPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import {SignUpPage} from '../pages/sign-up/sign-up';
     SignInPage,
     DashboardPage,
     LandingPage,
-    SignUpPage
+    SignUpPage,
+    LoadUpOptionsPage
   ],
   providers: [
     Service,

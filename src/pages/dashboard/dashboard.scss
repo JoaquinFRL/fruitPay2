@@ -48,7 +48,32 @@ page-dashboard {
 
     .subTextStyle5{
         color:white;
-        font-weight:bold;    
+        font-weight:bold;  
+        font-size:1.5em;  
+    }
+
+    .subTextStyle6{
+        color:white;
+        font-weight:bold;  
+        font-size:1.1em;  
+    }
+
+    .subTextStyle7{
+        color:white;
+        font-weight:bold;  
+        font-size:1.4em;  
+    }
+
+    .subTextStyle8{
+        color:white;
+        font-weight:bold;  
+        font-size:1.2em;  
+    }
+
+    .subTextStyle9{
+        color:white;
+        font-weight:bold;  
+        font-size:1.2em;  
     }
 
     .subNumStyle1{
@@ -76,5 +101,11 @@ page-dashboard {
         text-align: left;
         width:100%;
     }
+
+    .size{
+        height:100%;
+        width:100%;
+    }
+
 
 }

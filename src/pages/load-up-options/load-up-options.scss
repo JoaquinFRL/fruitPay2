@@ -1,0 +1,36 @@
+page-load-up-options {
+   
+    .container{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    ion-content{
+        background-color:rgb(167, 167, 167);
+    }
+
+    .card{
+        width:100%;
+        height:10em;
+        background-color:green;
+        border-radius:20px;
+        display:flex;
+        margin-bottom:1em;
+    }
+
+    .picArea{
+        background-color:white;
+        width:40%;
+        height:100%;
+        border-radius:18px 0px 0px 18px;
+        box-shadow: -5px 5px 20px 0px #aaaaaa;
+    }
+
+    .contentArea{
+        width:60%;
+        height:100%;
+        background-color:black;
+    }
+}

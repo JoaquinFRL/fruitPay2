@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import {LoadUpOptionsPage} from '../load-up-options/load-up-options';
 /**
  * Generated class for the DashboardPage page.
  *
@@ -22,4 +22,7 @@ export class DashboardPage {
     console.log('ionViewDidLoad DashboardPage');
   }
 
+  cry(){
+    this.navCtrl.push(LoadUpOptionsPage);
+  }
 }
