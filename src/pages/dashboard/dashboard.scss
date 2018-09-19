@@ -8,18 +8,17 @@ page-dashboard {
       }
     
       ion-slides {
-        width: 100% !important;
+        width: 90% !important;
         // margin-left: 10% !important;
         // width: 280% !important;
         height:65%!important;
         margin: 0 auto !important;
-
-        
+        overflow: inherit !important;
       }
 
       ion-slide{
         border-radius: 10px;
-        width:90% !important;
+        width:100% !important;
       }
       
     .textStyle{
@@ -77,7 +76,5 @@ page-dashboard {
         text-align: left;
         width:100%;
     }
-
-    
 
 }
